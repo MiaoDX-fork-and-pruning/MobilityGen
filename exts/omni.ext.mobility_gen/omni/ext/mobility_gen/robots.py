@@ -406,7 +406,7 @@ class JetbotRobot(WheeledRobot):
     path_following_target_point_offset_meters: float = 1.0
 
     wheel_dof_names: List[str] = ["left_wheel_joint", "right_wheel_joint"]
-    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Robots/Jetbot/jetbot.usd"
+    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Robots/Jetbot/jetbot.usd"
     chassis_subpath: str = "chassis"
     wheel_base: float = 0.1125
     wheel_radius: float = 0.03
@@ -454,7 +454,7 @@ class CarterRobot(WheeledRobot):
     path_following_target_point_offset_meters: float = 1.0
 
     wheel_dof_names: List[str] = ["joint_wheel_left", "joint_wheel_right"]
-    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Robots/Carter/nova_carter_sensors.usd"
+    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Robots/Carter/nova_carter_sensors.usd"
     chassis_subpath: str = "chassis_link"
     wheel_base = 0.413
     wheel_radius = 0.14
@@ -501,7 +501,7 @@ class H1Robot(IsaacLabRobot):
     path_following_forward_angle_threshold = math.pi / 4
     path_following_target_point_offset_meters: float = 1.0
 
-    usd_url = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Robots/Unitree/H1/h1.usd"
+    usd_url = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Robots/Unitree/H1/h1.usd"
     articulation_path = "pelvis"
     controller_z_offset: float = 1.05
 
@@ -553,7 +553,7 @@ class SpotRobot(IsaacLabRobot):
     path_following_forward_angle_threshold = math.pi / 4
     path_following_target_point_offset_meters: float = 1.0
 
-    usd_url = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Robots/BostonDynamics/spot/spot.usd"
+    usd_url = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Robots/BostonDynamics/spot/spot.usd"
     articulation_path = "/"
     controller_z_offset: float = 0.7
 

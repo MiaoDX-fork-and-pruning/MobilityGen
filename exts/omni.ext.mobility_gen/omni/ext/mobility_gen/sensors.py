@@ -180,7 +180,7 @@ class Camera(Sensor):
 
 class HawkCamera(Sensor):
 
-    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Sensors/LeopardImaging/Hawk/hawk_v1.1_nominal.usd"
+    usd_url: str = "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Sensors/LeopardImaging/Hawk/hawk_v1.1_nominal.usd"
     resolution: Tuple[int, int] = (960, 600)
     left_camera_path: str = "left/camera_left"
     right_camera_path: str = "right/camera_right"
