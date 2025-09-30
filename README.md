@@ -68,7 +68,7 @@ Follow these steps to set up MobilityGen
 
 ### Step 1 - Install Isaac Sim
 
-1. Download [Isaac Sim 4.5.0](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html)
+1. Download [Isaac Sim 5.0.0](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html)
 
     > We'll assume you use the zip file and extract it to ``~/isaacsim``.
 

@@ -20,4 +20,4 @@
 ./app/isaac-sim.sh \
     --ext-folder exts \
     --enable omni.ext.mobility_gen \
-    --enable omni.isaac.examples
+    --enable isaacsim.examples.interactive
